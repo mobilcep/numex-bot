@@ -7,7 +7,7 @@
 [![Numex AI](https://img.shields.io/badge/şimdi-numexai.com.tr-6d28d9)](https://www.numexai.com.tr)
 
 > [!NOTE]
-> Bu depo tarihsel bir prototiptir. Numex'in bugünkü hali, kendi modelleri (numex-pro/fast/think/vision/code), Detective Mode™, Swarm Konseyi ve Numex API ile **[numexai.com.tr](https://www.numexai.com.tr)** adresinde çalışıyor. Ekosistemin tamamı için: **[numex_nedir](https://github.com/mobilcep/numex_nedir)**.
+> Bu depo tarihsel bir prototiptir. Numex'in bugünkü hali, kendi modelleri (numex-pro/fast/think/vision/code), Detective Mode™, Swarm Konseyi ve Numex API ile **[numexai.com.tr](https://www.numexai.com.tr)** adresinde çalışıyor. Ekosistemin tamamı için: **[numex_nedir](https://github.com/numexai/numex_nedir)**.
 
 ## Ne yapar?
 
@@ -48,7 +48,7 @@ curl -X POST http://localhost:3000/message \
 
 ## Bugün aynı işi Numex API ile yapmak
 
-Bu prototipte yapılan şeyin bugünkü karşılığı, **[Numex API](https://github.com/mobilcep/numex-api)** ve **[numex-sdk](https://github.com/mobilcep/numex-sdk)**:
+Bu prototipte yapılan şeyin bugünkü karşılığı, **[Numex API](https://github.com/numexai/numex-api)** ve **[numex-sdk](https://github.com/numexai/numex-sdk)**:
 
 ```bash
 curl https://www.numexai.com.tr/api/v1/chat \
@@ -61,12 +61,12 @@ curl https://www.numexai.com.tr/api/v1/chat \
 
 | Tarih | Adım |
 |---|---|
-| 2024 | [Detective Mode](https://github.com/mobilcep/detective-mode-ai) konsepti yazıldı |
+| 2024 | [Detective Mode](https://github.com/numexai/detective-mode-ai) konsepti yazıldı |
 | Mart 2025 | **numex-bot**: ilk çalışan Numex prototipi (bu depo) |
-| Bugün | [Numex AI](https://www.numexai.com.tr) · [Codex](https://github.com/mobilcep/numex-codex) · [API](https://github.com/mobilcep/numex-api) · [Okul](https://github.com/mobilcep/numex-okul) · [Market](https://github.com/mobilcep/numex-market) · [Pedia](https://pedia.numexai.com.tr) |
+| Bugün | [Numex AI](https://www.numexai.com.tr) · [Codex](https://github.com/numexai/numex-codex) · [API](https://github.com/numexai/numex-api) · [Okul](https://github.com/numexai/numex-okul) · [Market](https://github.com/numexai/numex-market) · [Pedia](https://pedia.numexai.com.tr) |
 
 ---
 
 <p align="center">
-  <b>Numex AI</b> ailesinin bir parçası · <a href="https://www.numexai.com.tr">numexai.com.tr</a> · <a href="https://github.com/mobilcep/numex_nedir">Ekosistemi keşfet</a>
+  <b>Numex AI</b> ailesinin bir parçası · <a href="https://www.numexai.com.tr">numexai.com.tr</a> · <a href="https://github.com/numexai/numex_nedir">Ekosistemi keşfet</a>
 </p>
