@@ -1,21 +1,18 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { Configuration, OpenAIApi } = require("openai");
+const OpenAI = require("openai");
 require('dotenv').config();
 
 const app = express();
 app.use(bodyParser.json());
 
-const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-const openai = new OpenAIApi(configuration);
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 app.post('/message', async (req, res) => {
   const userMessage = req.body.message;
 
   try {
-    const completion = await openai.createChatCompletion({
+    const completion = await openai.chat.completions.create({
       model: "gpt-4",
       messages: [
         { role: "system", content: "Sen Numex adında, ofis koltuğu ve müşteri destek konusunda uzman bir yapay zekasın. Kullanıcıya kibar, samimi ve çözüm odaklı bir şekilde cevap ver." },
@@ -23,7 +20,7 @@ app.post('/message', async (req, res) => {
       ],
     });
 
-    const botResponse = completion.data.choices[0].message.content;
+    const botResponse = completion.choices[0].message.content;
     res.json({ reply: botResponse });
 
   } catch (error) {
